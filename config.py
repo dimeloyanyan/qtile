@@ -350,11 +350,6 @@ def init_widgets_list():
                        background = colors[4],
                        fontsize = 12
                        ),
-              widget.BitcoinTicker(
-                       foreground = colors[2],
-                       background = colors[4],
-                       padding = 5
-                       ),
               widget.TextBox(
                        text = '',
                        background = colors[4],
@@ -368,12 +363,6 @@ def init_widgets_list():
                        foreground = colors[2],
                        background = colors[5],
                        fontsize = 11
-                       ),
-              widget.ThermalSensor(
-                       foreground = colors[2],
-                       background = colors[5],
-                       threshold = 90,
-                       padding = 5
                        ),
               widget.TextBox(
                        text='',
